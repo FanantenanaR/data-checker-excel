@@ -1,0 +1,163 @@
+{
+    "name": "CarteGraphique",
+    "sheet": "cartegraphique",
+    "columns": [
+        {
+            "name": "ID Carte Graphique",
+            "columnNameSheet": "id",
+            "columnNameDB": "idCarteGraphique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "ID of the graphics card"
+        },
+        {
+            "name": "Brand",
+            "columnNameSheet": "marque",
+            "columnNameDB": "marque",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Brand of the graphics card"
+        },
+        {
+            "name": "Model",
+            "columnNameSheet": "model",
+            "columnNameDB": "modele",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Model of the graphics card"
+        },
+        {
+            "name": "VRAM",
+            "columnNameSheet": "vram",
+            "columnNameDB": "vram",
+            "typeValue": "decimal",
+            "valueFormat": "0.00000",
+            "minValue": 0,
+            "maxValue": 99999.99999,
+            "description": "Video RAM size in GB"
+        },
+        {
+            "name": "Interface",
+            "columnNameSheet": "interface",
+            "columnNameDB": "interface",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Interface of the graphics card"
+        },
+        {
+            "name": "GPU Frequency",
+            "columnNameSheet": "frequenceGPU",
+            "columnNameDB": "frequenceGPU",
+            "typeValue": "decimal",
+            "valueFormat": "0.000",
+            "minValue": 0,
+            "maxValue": 999999999999.999,
+            "description": "GPU frequency in MHz"
+        },
+        {
+            "name": "Memory Frequency",
+            "columnNameSheet": "frequenceMemoire",
+            "columnNameDB": "frequenceMemoire",
+            "typeValue": "decimal",
+            "valueFormat": "0.000",
+            "minValue": 0,
+            "maxValue": 999999999999.999,
+            "description": "Memory frequency in MHz"
+        },
+        {
+            "name": "HDMI Port",
+            "columnNameSheet": "portHDMI",
+            "columnNameDB": "portHDMI",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Number of HDMI ports"
+        },
+        {
+            "name": "DP Port",
+            "columnNameSheet": "portDP",
+            "columnNameDB": "portDP",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Number of DisplayPort ports"
+        },
+        {
+            "name": "VGA Port",
+            "columnNameSheet": "portVGA",
+            "columnNameDB": "portVGA",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Number of VGA ports"
+        },
+        {
+            "name": "Dimension",
+            "columnNameSheet": "dimension",
+            "columnNameDB": "dimension",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "Dimension of the graphics card"
+        },
+        {
+            "name": "TDP",
+            "columnNameSheet": "TDP",
+            "columnNameDB": "TDP",
+            "typeValue": "decimal",
+            "valueFormat": "0.00",
+            "minValue": 0,
+            "maxValue": 999999.99,
+            "description": "Thermal Design Power in watts"
+        },
+        {
+            "name": "Release Date",
+            "columnNameSheet": "datesortie",
+            "columnNameDB": "dateSortie",
+            "typeValue": "date",
+            "valueFormat": "YYYY-MM-DD",
+            "description": "Release date of the graphics card"
+        },
+        {
+            "name": "Price",
+            "columnNameSheet": "prix",
+            "columnNameDB": "prix",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 2147483647,
+            "description": "Price of the graphics card in currency"
+        },
+        {
+            "name": "Shop",
+            "columnNameSheet": "boutique",
+            "columnNameDB": "boutique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Shop where the graphics card is available"
+        },
+        {
+            "name": "Source",
+            "columnNameSheet": "source",
+            "columnNameDB": "source",
+            "typeValue": "str",
+            "valueFormat": "",
+            "description": "Source d'information sur la carte graphique",
+            "defaultValue": ""
+        }
+    ]
+}

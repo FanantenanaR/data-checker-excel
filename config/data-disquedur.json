@@ -1,0 +1,144 @@
+{
+    "name": "Storage Disk",
+    "sheet": "disquedur",
+    "columns": [
+        {
+            "name": "ID Disque Dur",
+            "columnNameSheet": "id",
+            "columnNameDB": "idDisqueDur",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "ID of the hard disk"
+        },
+        {
+            "name": "Brand",
+            "columnNameSheet": "marque",
+            "columnNameDB": "marque",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Brand of the hard disk"
+        },
+        {
+            "name": "Model",
+            "columnNameSheet": "model",
+            "columnNameDB": "modele",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Model of the hard disk"
+        },
+        {
+            "name": "Interface",
+            "columnNameSheet": "interface",
+            "columnNameDB": "interface",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Interface of the hard disk"
+        },
+        {
+            "name": "Capacity",
+            "columnNameSheet": "capacite",
+            "columnNameDB": "capacite",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 32767,
+            "description": "Capacity of the hard disk in GB"
+        },
+        {
+            "name": "Read Speed",
+            "columnNameSheet": "vitesseLecture",
+            "columnNameDB": "vitesseLecture",
+            "typeValue": "decimal",
+            "valueFormat": "0.00",
+            "minValue": 0,
+            "maxValue": 99999999.99,
+            "description": "Read speed of the hard disk in MB/s"
+        },
+        {
+            "name": "Write Speed",
+            "columnNameSheet": "vitesseEcriture",
+            "columnNameDB": "vitesseEcriture",
+            "typeValue": "decimal",
+            "valueFormat": "0.00",
+            "minValue": 0,
+            "maxValue": 99999999.99,
+            "description": "Write speed of the hard disk in MB/s"
+        },
+        {
+            "name": "Dimension",
+            "columnNameSheet": "dimension",
+            "columnNameDB": "dimension",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "Dimension of the hard disk"
+        },
+        {
+            "name": "Type",
+            "columnNameSheet": "type",
+            "columnNameDB": "typeDur",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "Type of the hard disk"
+        },
+        {
+            "name": "Lifespan",
+            "columnNameSheet": "dureeDeVie",
+            "columnNameDB": "dureeDeVie",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 32767,
+            "description": "Lifespan of the hard disk in hours",
+            "isNullable": true
+        },
+        {
+            "name": "Release Date",
+            "columnNameSheet": "datesortie",
+            "columnNameDB": "dateSortie",
+            "typeValue": "date",
+            "valueFormat": "YYYY-MM-DD",
+            "description": "Release date of the hard disk"
+        },
+        {
+            "name": "Price",
+            "columnNameSheet": "prix",
+            "columnNameDB": "prix",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 2147483647,
+            "description": "Price of the hard disk in currency"
+        },
+        {
+            "name": "Shop",
+            "columnNameSheet": "boutique",
+            "columnNameDB": "boutique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Shop where the hard disk is available"
+        },
+        {
+            "name": "Source",
+            "columnNameSheet": "source",
+            "columnNameDB": "source",
+            "typeValue": "str",
+            "valueFormat": "",
+            "description": "Source d'information sur le disque dur",
+            "defaultValue": ""
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "name": "CarteMere",
+    "sheet": "cartemere",
+    "columns": [
+        {
+            "name": "ID Carte Mere",
+            "columnNameSheet": "id",
+            "columnNameDB": "idCarteMere",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "ID of the motherboard"
+        },
+        {
+            "name": "Brand",
+            "columnNameSheet": "marque",
+            "columnNameDB": "marque",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Brand of the motherboard"
+        },
+        {
+            "name": "Model",
+            "columnNameSheet": "model",
+            "columnNameDB": "modele",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Model of the motherboard"
+        },
+        {
+            "name": "Form Factor",
+            "columnNameSheet": "format",
+            "columnNameDB": "format",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Form factor of the motherboard"
+        },
+        {
+            "name": "Socket",
+            "columnNameSheet": "socket",
+            "columnNameDB": "socket",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 50,
+            "description": "Socket type of the motherboard"
+        },
+        {
+            "name": "RAM Slots",
+            "columnNameSheet": "slotRam",
+            "columnNameDB": "slotRam",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of RAM slots"
+        },
+        {
+            "name": "PCI Slots",
+            "columnNameSheet": "slotPCI",
+            "columnNameDB": "slotPCI",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of PCI slots"
+        },
+        {
+            "name": "PCIe Slots",
+            "columnNameSheet": "slotPCIe",
+            "columnNameDB": "slotPCIe",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of PCIe slots"
+        },
+        {
+            "name": "SATA Ports",
+            "columnNameSheet": "portSata",
+            "columnNameDB": "portSata",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of SATA ports"
+        },
+        {
+            "name": "M.2 Ports",
+            "columnNameSheet": "portM2",
+            "columnNameDB": "portM2",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of M.2 ports"
+        },
+        {
+            "name": "Dimension",
+            "columnNameSheet": "dimension",
+            "columnNameDB": "dimension",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 15,
+            "description": "Dimension of the motherboard"
+        },
+        {
+            "name": "Release Date",
+            "columnNameSheet": "datesortie",
+            "columnNameDB": "dateSortie",
+            "typeValue": "date",
+            "valueFormat": "YYYY-MM-DD",
+            "description": "Release date of the motherboard"
+        },
+        {
+            "name": "Price",
+            "columnNameSheet": "prix",
+            "columnNameDB": "prix",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 2147483647,
+            "description": "Price of the motherboard in currency"
+        },
+        {
+            "name": "Shop",
+            "columnNameSheet": "boutique",
+            "columnNameDB": "boutique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Shop where the motherboard is available"
+        },
+        {
+            "name": "Source",
+            "columnNameSheet": "source",
+            "columnNameDB": "source",
+            "typeValue": "str",
+            "valueFormat": "",
+            "description": "Source d'information sur la carte mère",
+            "defaultValue": "",
+            "isNullable": false
+        }
+    ]
+}

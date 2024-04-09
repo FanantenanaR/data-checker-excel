@@ -1,0 +1,178 @@
+{
+    "name": "Processor",
+    "sheet": "processeur",
+    "columns": [
+        {
+            "name": "ID Processor",
+            "columnNameSheet": "id",
+            "columnNameDB": "idProc",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "Identifiant du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Brand Name",
+            "columnNameSheet": "marque",
+            "columnNameDB": "marque",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Marque du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Generation",
+            "columnNameSheet": "generation",
+            "columnNameDB": "generation",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Génération du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Model",
+            "columnNameSheet": "model",
+            "columnNameDB": "modele",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Modèle du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Socket",
+            "columnNameSheet": "socket",
+            "columnNameDB": "socket",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 50,
+            "description": "Type de socket du processeur",
+            "isNullable": false
+        },
+        {
+            "name": "Frequency",
+            "columnNameSheet": "frequence",
+            "columnNameDB": "frequence",
+            "typeValue": "decimal",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 999.999,
+            "description": "Fréquence du processeur",
+            "isNullable": false
+        },
+        {
+            "name": "Number of Cores",
+            "columnNameSheet": "nbCoeur",
+            "columnNameDB": "nbCoeur",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Nombre de coeurs du processeur",
+            "isNullable": false
+        },
+        {
+            "name": "Number of Threads",
+            "columnNameSheet": "nbThread",
+            "columnNameDB": "nbThread",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Nombre de threads du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Architecture",
+            "columnNameSheet": "architecture",
+            "columnNameDB": "architecture",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 30,
+            "description": "Architecture du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Cache Memory",
+            "columnNameSheet": "memoireCache",
+            "columnNameDB": "memoireCache",
+            "typeValue": "decimal",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 999.999,
+            "description": "Mémoire cache du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "TDP",
+            "columnNameSheet": "TDP",
+            "columnNameDB": "TDP",
+            "typeValue": "decimal",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 99999.99,
+            "description": "Thermal Design Power (TDP) du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Release Date",
+            "columnNameSheet": "datesortie",
+            "columnNameDB": "dateSortie",
+            "typeValue": "date",
+            "valueFormat": "YYYY-MM-DD",
+            "description": "Date de sortie du processeur",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Price",
+            "columnNameSheet": "prix",
+            "columnNameDB": "prix",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 2147483647,
+            "description": "Prix du processeur",
+            "defaultValue": "0",
+            "isNullable": false
+        },
+        {
+            "name": "Shop",
+            "columnNameSheet": "boutique",
+            "columnNameDB": "boutique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Nom de la boutique où le processeur est disponible",
+            "defaultValue": "",
+            "isNullable": false
+        },
+        {
+            "name": "Source",
+            "columnNameSheet": "source",
+            "columnNameDB": "source",
+            "typeValue": "str",
+            "valueFormat": "",
+            "description": "Source d'information sur le processeur",
+            "defaultValue": ""
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "name": "RAM",
+    "sheet": "ram",
+    "columns": [
+        {
+            "name": "ID RAM",
+            "columnNameSheet": "id",
+            "columnNameDB": "idRam",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 20,
+            "description": "ID of the RAM"
+        },
+        {
+            "name": "DDR",
+            "columnNameSheet": "ddr",
+            "columnNameDB": "ddr",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "DDR version"
+        },
+        {
+            "name": "Brand",
+            "columnNameSheet": "marque",
+            "columnNameDB": "marque",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 100,
+            "description": "Brand of the RAM"
+        },
+        {
+            "name": "Model",
+            "columnNameSheet": "model",
+            "columnNameDB": "modele",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Model of the RAM"
+        },
+        {
+            "name": "Memory",
+            "columnNameSheet": "memoire",
+            "columnNameDB": "memoire",
+            "typeValue": "decimal",
+            "valueFormat": "0.000",
+            "minValue": 0,
+            "maxValue": 999.999,
+            "description": "Memory size in GB"
+        },
+        {
+            "name": "Frequency",
+            "columnNameSheet": "frequence",
+            "columnNameDB": "frequence",
+            "typeValue": "decimal",
+            "valueFormat": "0.000",
+            "minValue": 0,
+            "maxValue": 999999.999,
+            "description": "Frequency in MHz"
+        },
+        {
+            "name": "Price",
+            "columnNameSheet": "prix",
+            "columnNameDB": "prix",
+            "typeValue": "int",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 2147483647,
+            "description": "Price in currency"
+        },
+        {
+            "name": "Release Date",
+            "columnNameSheet": "datesortie",
+            "columnNameDB": "datesortie",
+            "typeValue": "date",
+            "valueFormat": "YYYY-MM-DD",
+            "description": "Release date of the RAM"
+        },
+        {
+            "name": "Shop",
+            "columnNameSheet": "boutique",
+            "columnNameDB": "boutique",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Shop where RAM is available"
+        },
+        {
+            "name": "Source",
+            "columnNameSheet": "source",
+            "columnNameDB": "source",
+            "typeValue": "str",
+            "valueFormat": "",
+            "description": "Source d'information sur la ram",
+            "defaultValue": "",
+            "isNullable": false
+        }
+    ]
+}

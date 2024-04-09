@@ -1,0 +1,29 @@
+{
+    "name": "TP Versus & Build",
+    "files": [
+        {
+            "filename": "config/data-cartegraphique.json",
+            "description": "Fichier de configuration de l'Etudiant"
+        },
+        {
+            "filename": "config/data-processeur.json",
+            "description": "Fichier de configuration du processeur"
+        },
+        {
+            "filename": "config/data-ram.json",
+            "description": "Fichier de configuration de la RAM"
+        },
+        {
+            "filename": "config/data-cartegraphique.json",
+            "description": "Fichier de configuration de la carte graphique"
+        },
+        {
+            "filename": "config/data-disquedur.json",
+            "description": "Fichier de configuration du disque dur"
+        },
+        {
+            "filename": "config/data-cartemere.json",
+            "description": "Fichier de configuration de la carte mère"
+        }
+    ]
+}
