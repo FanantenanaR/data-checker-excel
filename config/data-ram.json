@@ -78,7 +78,8 @@
             "columnNameDB": "datesortie",
             "typeValue": "date",
             "valueFormat": "YYYY-MM-DD",
-            "description": "Release date of the RAM"
+            "description": "Release date of the RAM",
+            "isNullable": true
         },
         {
             "name": "Shop",

@@ -2,10 +2,6 @@
     "name": "TP Versus & Build",
     "files": [
         {
-            "filename": "config/data-cartegraphique.json",
-            "description": "Fichier de configuration de l'Etudiant"
-        },
-        {
             "filename": "config/data-processeur.json",
             "description": "Fichier de configuration du processeur"
         },

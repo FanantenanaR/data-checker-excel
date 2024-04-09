@@ -28,9 +28,9 @@ pip install pandas numpy json
 ### Télécharment du projet
 Vous pouvez soit cloner avec la commande suivante:
 ```bash
-git clone 
+git clone https://github.com/FanantenanaR/data-checker-excel.git
 ```
-Soit télécharger avec la fonctionnalité de `download as zip`.
+Soit télécharger avec la fonctionnalité de [download as zip](https://codeload.github.com/FanantenanaR/data-checker-excel/zip/refs/heads/master).
 
 ## Configuration et structure
 Vous devriez mettre dans le dossier `data` votre fichier excel `.xlsx`.
