@@ -50,7 +50,7 @@
             "valueFormat": "",
             "minValue": 0,
             "maxValue": 50,
-            "description": "Socket type of the motherboard"
+            "description": "Socket type of the motherboard",
         },
         {
             "name": "RAM Slots",
@@ -66,21 +66,42 @@
             "name": "PCI Slots",
             "columnNameSheet": "slotPCI",
             "columnNameDB": "slotPCI",
-            "typeValue": "int",
+            "typeValue": "str",
             "valueFormat": "",
             "minValue": 0,
             "maxValue": 255,
-            "description": "Number of PCI slots"
+            "description": "Type of PCI slots"
         },
         {
             "name": "PCIe Slots",
             "columnNameSheet": "slotPCIe",
             "columnNameDB": "slotPCIe",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Type of PCIe slots",
+            "isNullable": true
+        },
+        {
+            "name": "PCIe Port number",
+            "columnNameSheet": "portPCIe",
+            "columnNameDB": "portPCIe",
             "typeValue": "int",
             "valueFormat": "",
             "minValue": 0,
             "maxValue": 255,
             "description": "Number of PCIe slots"
+        },
+        {
+            "name": "PCI Port number",
+            "columnNameSheet": "portPCI",
+            "columnNameDB": "portPCI",
+            "typeValue": "str",
+            "valueFormat": "",
+            "minValue": 0,
+            "maxValue": 255,
+            "description": "Number of PCI slots"
         },
         {
             "name": "SATA Ports",
